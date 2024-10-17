@@ -1,2 +1,3 @@
 # Analytics
-la primera BQ del notebook es de Juan
+
+This analytics pipeline aims to connect to a Firebase Firestore database and analyze data related to the advertisements of the Senecard app. The process begins by installing and configuring the Firebase connection using the firebase-admin library. Then, the application is authenticated using a credentials file (key.json), and the Firestore client is initialized to interact with the database. Once connected, a query is made to obtain the distribution of clicks on the advertisements, identifying which ads received the most clicks. Finally, the retrieved data is processed for visualization, providing better insight into the performance of the ads in terms of user interactions.
